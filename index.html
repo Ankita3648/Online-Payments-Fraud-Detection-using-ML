@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fraud Detection</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        input { margin: 4px; padding: 6px; }
+        button { padding: 8px 14px; }
+    </style>
+</head>
+<body>
+<h2>Online Payment Fraud Detection</h2>
+
+<form action="/predict" method="post">
+    <!-- 30 inputs -->
+    <input type="text" name="f1" placeholder="Feature 1">
+<input type="text" name="f2" placeholder="Feature 2">
+<input type="text" name="f3" placeholder="Feature 3">
+<input type="text" name="f4" placeholder="Feature 4">
+<input type="text" name="f5" placeholder="Feature 5">
+<input type="text" name="f6" placeholder="Feature 6">
+<input type="text" name="f7" placeholder="Feature 7">
+<input type="text" name="f8" placeholder="Feature 8">
+<input type="text" name="f9" placeholder="Feature 9">
+<input type="text" name="f10" placeholder="Feature 10">
+<input type="text" name="f11" placeholder="Feature 11">
+<input type="text" name="f12" placeholder="Feature 12">
+<input type="text" name="f13" placeholder="Feature 13">
+<input type="text" name="f14" placeholder="Feature 14">
+<input type="text" name="f15" placeholder="Feature 15">
+<input type="text" name="f16" placeholder="Feature 16">
+<input type="text" name="f17" placeholder="Feature 17">
+<input type="text" name="f18" placeholder="Feature 18">
+<input type="text" name="f19" placeholder="Feature 19">
+<input type="text" name="f20" placeholder="Feature 20">
+<input type="text" name="f21" placeholder="Feature 21">
+<input type="text" name="f22" placeholder="Feature 22">
+<input type="text" name="f23" placeholder="Feature 23">
+<input type="text" name="f24" placeholder="Feature 24">
+<input type="text" name="f25" placeholder="Feature 25">
+<input type="text" name="f26" placeholder="Feature 26">
+<input type="text" name="f27" placeholder="Feature 27">
+<input type="text" name="f28" placeholder="Feature 28">
+<input type="text" name="f29" placeholder="Feature 29">
+<input type="text" name="f30" placeholder="Feature 30">
+    <br><button type="submit">Check Transaction</button>
+</form>
+
+<h3>{{ prediction_text }}</h3>
+
+</body>
+</html>
