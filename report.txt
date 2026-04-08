@@ -1,0 +1,16 @@
+ONLINE PAYMENTS FRAUD DETECTION USING MACHINE LEARNING
+
+Introduction:
+This project focuses on detecting fraudulent transactions.
+
+Objectives:
+- Detect fraud
+- Improve security
+
+Methodology:
+- Data preprocessing
+- Model training
+- Evaluation
+
+Conclusion:
+Machine learning helps reduce fraud effectively.
